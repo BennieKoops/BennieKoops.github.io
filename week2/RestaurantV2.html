@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generic Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="RestaurantV2.css">
+</head>
+<body>
+    <div id="header"><H1>Generic Restaurant</H1></div>
+    <div id="menuBar">
+        <button type="button" id="btnH">Home</button>
+        <button type="button" id="btnM">Menu</button>
+        <button type="button" id="btnA">Afhalen</button>
+    </div>
+    <div id="home">
+        <p>
+            Generic restaurant
+        </p>
+    </div>
+    <div id="menu">
+        <h3>Menu</h3>
+        <!-- table is given id for future serverside integration -->
+        <form>
+            <table id="listMenu">
+                <tr>
+                    <th>Drinken</th>
+                </tr>
+                <tr>
+                    <td class="drinks">Glas water</td>
+                    <td>€</td>
+                    <td class="priceDrinks">0,50</td>
+                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="DMBTN">min</button></td>
+                </tr>
+                <tr>
+                    <td class="drinks">Glas cola</td>
+                    <td>€</td>
+                    <td class="priceDrinks">1,50</td>
+                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="DMBTN">min</button></td>
+                </tr>
+                <tr>
+                    <td class="drinks">Kop koffie</td>
+                    <td>€</td>
+                    <td class="priceDrinks">1,00</td>
+                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="DMBTN">min</button></td>
+                </tr>
+                <tr>
+                    <td class="drinks">Kop thee</td>
+                    <td>€</td>
+                    <td class="priceDrinks">1,00</td>
+                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="DMBTN">min</button></td>
+                </tr>
+                <tr>
+                    <th>Gerechten</th>
+                </tr>
+                <tr>
+                    <td class="food">Hamburger</td>
+                    <td>€</td>
+                    <td class="priceFood">3,50</td>
+                    <td><button type="button" name="FPBTN">plus</button></td>
+                    <td><input type="number" name="aantalFood" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="FMBTN">plus</button></td>
+                </tr>
+                <tr>
+                    <td class="food">Pizza</td>
+                    <td>€</td>
+                    <td class="priceFood">4,50</td>
+                    <td><button type="button" name="FPBTN">plus</button></td>
+                    <td><input type="number" name="aantalFood" value="0" min="0" max="15"></td>
+                    <td><button type="button" name="FMBTN">plus</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="afhalen">
+        <table id="bestelling">
+            <tr>
+                <td>bestelling</td>
+            </tr>
+            <tr>
+                <td>item</td>
+                <td>aantal</td>
+                <td>prijs</td>
+            </tr>
+        </table>
+    </div>
+    <script src="RestaurantV2.js"></script>
+</body>
+</html>
