@@ -10,9 +10,9 @@
 <body>
     <div id="header"><H1>Generic Restaurant</H1></div>
     <div id="menuBar">
-        <button type="button" id="btnH">Home</button>
-        <button type="button" id="btnM">Menu</button>
-        <button type="button" id="btnA">Afhalen</button>
+        <button type="button" class="Bar" id="btnH">Home</button>
+        <button type="button" class="Bar" id="btnM">Menu</button>
+        <button type="button" class="Bar" id="btnA">Afhalen</button>
     </div>
     <div id="home">
         <p>
@@ -31,33 +31,33 @@
                     <td class="drinks">Glas water</td>
                     <td>€</td>
                     <td class="priceDrinks">0,50</td>
-                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><button type="button" name="DPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="DMBTN">min</button></td>
+                    <td><button type="button" name="DMBTN">&#8211;</button></td>
                 </tr>
                 <tr>
                     <td class="drinks">Glas cola</td>
                     <td>€</td>
                     <td class="priceDrinks">1,50</td>
-                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><button type="button" name="DPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="DMBTN">min</button></td>
+                    <td><button type="button" name="DMBTN">&#8211;</button></td>
                 </tr>
                 <tr>
                     <td class="drinks">Kop koffie</td>
                     <td>€</td>
                     <td class="priceDrinks">1,00</td>
-                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><button type="button" name="DPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="DMBTN">min</button></td>
+                    <td><button type="button" name="DMBTN">&#8211;</button></td>
                 </tr>
                 <tr>
                     <td class="drinks">Kop thee</td>
                     <td>€</td>
                     <td class="priceDrinks">1,00</td>
-                    <td><button type="button" name="DPBTN">plus</button></td>
+                    <td><button type="button" name="DPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalDrinks" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="DMBTN">min</button></td>
+                    <td><button type="button" name="DMBTN">&#8211;</button></td>
                 </tr>
                 <tr>
                     <th>Gerechten</th>
@@ -66,31 +66,24 @@
                     <td class="food">Hamburger</td>
                     <td>€</td>
                     <td class="priceFood">3,50</td>
-                    <td><button type="button" name="FPBTN">plus</button></td>
+                    <td><button type="button" name="FPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalFood" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="FMBTN">plus</button></td>
+                    <td><button type="button" name="FMBTN">&#8211;</button></td>
                 </tr>
                 <tr>
                     <td class="food">Pizza</td>
                     <td>€</td>
                     <td class="priceFood">4,50</td>
-                    <td><button type="button" name="FPBTN">plus</button></td>
+                    <td><button type="button" name="FPBTN">&#43;</button></td>
                     <td><input type="number" name="aantalFood" value="0" min="0" max="15"></td>
-                    <td><button type="button" name="FMBTN">plus</button></td>
+                    <td><button type="button" name="FMBTN">&#8211;</button></td>
                 </tr>
             </table>
         </form>
     </div>
     <div id="afhalen">
         <table id="bestelling">
-            <tr>
-                <td>bestelling</td>
-            </tr>
-            <tr>
-                <td>item</td>
-                <td>aantal</td>
-                <td>prijs</td>
-            </tr>
+          
         </table>
     </div>
     <script src="RestaurantV2.js"></script>

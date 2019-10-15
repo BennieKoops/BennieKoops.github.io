@@ -1,9 +1,51 @@
+body {
+    background-color: #EBF2FA;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+}
+#header {
+    background-color: #05668D;
+    color: whitesmoke;
+    padding-top: 2%;
+}
+#menuBar {
+    background-color: #427AA1;
+    margin-left: 0%;
+    margin-right: 0%;    
+}
 #home {
+    margin-left: 40%;
     float: left;
+    background-color: #679436;
+    border-radius: 25%;
 }
 #menu {
     float: left;
+    background-color: #679436;
+    border-radius: 25%;
+    padding-bottom: 3%;
+    padding-right: 1%;
 }
 #afhalen {
     float: left;
+    background-color: #679436;
+    border-radius: 25%;
+}
+
+button {
+    border-radius: 50%;
+    background-color: #EBF2FA;
+    opacity: 0.8;
+    border: none;
+}
+button.Bar {
+    background-color: #427AA1;
+    border-radius: 0%;
+    padding: 1%;
+    color: whitesmoke;
+}
+input {
+    width: 50%;
 }
