@@ -1,3 +1,5 @@
+// Source: Udemy Web dev bootcamp course Ch20
+
 // Doorstrepen wat aangeklikt wordt
 // Strikethrough what is clicked
 $("ul").on("click", "li", function(){
